@@ -14,7 +14,7 @@ const viewPresentation = () => `
           <a class="text-[#3498db]" href="#projet1-section">Projets <span aria-hidden="true">&rarr;</span></a>
           <a class="text-[#3498db]" href="https://drive.google.com/file/d/1W_2BDy4GFVxXn18efJZn-eg6bSUtL3jc/view?usp=drive_link">Curriculum Vitae <span aria-hidden="true">&rarr;</span></a>
           <a class="text-[#3498db]" href="https://www.linkedin.com/in/maxime-lecourt-guerin-4384412a6/">Linkedin <span aria-hidden="true">&rarr;</span></a>
-          <a class="text-[#3498db]" href="#">Github <span aria-hidden="true">&rarr;</span></a>
+          <a class="text-[#3498db]" href="https://github.com/Maxime-L-G">Github <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
     </div>
