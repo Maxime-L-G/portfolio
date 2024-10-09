@@ -1,5 +1,9 @@
 import viewNav from '../views/navbar';
 import viewPresentation from '../views/presentation';
+import viewCv from '../views/cv';
+import viewProjet1 from '../views/projet1';
+import viewProjet2 from '../views/projet2';
+import viewFooter from '../views/footer';
 
 const Home = class Home {
   constructor(params) {
@@ -11,37 +15,15 @@ const Home = class Home {
   }
 
   async render() {
-    return `
-    <div
-  class="mx-auto h-80 max-w-lg overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
-  style="background-image:url('https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp');">
-  <div class="mt-40">
-    <div class="bg-white p-4 sm:p-8">
-      <div
-        class="font-inter text-2xl font-extrabold tracking-tight text-black">
-        Majestic peaks, nature's embrace.
-      </div>
-      <div class="mt-1 text-sm font-medium text-slate-500">
-        Adventure calls, conquer mountain trails.
-      </div>
-      <p class="mt-4 leading-7 text-slate-500">
-        In the realm of towering mountains, where the air is crisp and
-        the vistas stretch endlessly, one finds solace, exhilaration,
-        and a profound connection with the untamed beauty of the natural
-        world.
-      </p>
-      <p class="mt-4 leading-7 text-slate-500">
-        As the sun rises over the rugged peaks, casting a golden glow on
-        the majestic landscape, a sense of awe fills the heart,
-        reminding us of the grandeur and power that reside in the
-        mountains.
-      </p>
-    </div>
-  </div>
-</div>
- 
-    <div>${viewNav()}</div>
-    <div>${viewPresentation()}</div>
+    return ` 
+    <section class="bg-image">
+      <div>${viewNav()}</div>
+      <div>${viewPresentation()}</div>
+      <div>${viewCv()}</div>
+      <div>${viewProjet1()}</div>
+      <div>${viewProjet2()}</div>
+      <div>${viewFooter()}</div>
+    </section>
     `;
   }
 
