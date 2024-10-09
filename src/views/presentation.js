@@ -19,16 +19,13 @@ const viewPresentation = () => `
       </div>
     </div>
     
-    <!-- Image ajustée pour rester en place sur grand écran, se déplace en dessous sur petits écrans -->
     <div class="relative mt-10 lg:mt-0 mx-auto flex justify-center"> <!-- Changement en 'mx-auto flex justify-center' pour centrer l'image -->
-      <div class="absolute -top-10 -left-10 w-96 h-96 bg-blue-100 rounded-full opacity-30"></div>
+      <div class="absolute -top-10 -left-10 w-96 h-96"></div>
       <a href="https://ibb.co/KXLXfHq">
-        <img src="https://i.ibb.co/KXLXfHq/Moi-removebg-preview.png" alt="Moi-removebg-preview" border="0" class="relative z-10 filter brightness-110 saturate-150" style="width: 350px; height: auto;">
+        <img src="https://i.ibb.co/NSwvFdd/Moi-removebg-preview-1.png" alt="Moi-removebg-preview" border="0" class="relative z-10 filter brightness-110 saturate-150" style="width: 600px; height: auto;">
       </a>  
     </div>
-
   </div>
-
   <div class="mx-auto mt-16 max-w-7xl px-6 lg:px-8">
     <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4" id="projets-section">
       <div class="flex flex-col-reverse">
